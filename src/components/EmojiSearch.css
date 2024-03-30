@@ -1,0 +1,29 @@
+.icon {
+    list-style-type: none;
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30rem;
+    overflow: scroll;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    color: red;
+    animation-name: heading;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heading {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: blue;}
+    75% {color: green;}
+    100% {color: white;}
+}
